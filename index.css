@@ -1,0 +1,36 @@
+.bg-hero {
+    position: relative;
+}
+
+.bg-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/368/995/large_2x/green-background-images-free-downloads-and-wallpaper-free-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+}
+
+.card img {
+    object-fit: cover;
+    aspect-ratio: 2/1;
+}
+
+a, p {
+    font-family: expletus-sans;
+}
+
+h1, h2, div{
+    font-family: anta;
+}
+
+.borderwidth{
+    border: 3px black solid;
+}
+
+
+.tooltip-inner{
+    width: 200%;
+    font-family: expletus-sans;
+}
