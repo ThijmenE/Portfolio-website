@@ -21,6 +21,10 @@
     font-size: 200%;
 }
 
+.Font-largest {
+    font-size: 300%;
+}
+
 @font-face {
     font-family: Anta;
     src: url(Anta-Regular.ttf);
